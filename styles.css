@@ -1,0 +1,150 @@
+/* *{margin: 0} */
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Didot;
+  position: relative;
+}
+
+.headerTop {
+  background-color: rgb(237, 227, 216);
+  padding: 4px;
+}
+
+h1 {
+  text-align: center;
+  font-family: Didot;
+  color: rgb(110, 126, 151);
+}
+
+.navigation {
+  background-color: silver;
+  padding: 4px;
+}
+
+.navigationList {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+#introMe {
+  background-color: rgb(163, 192, 157);
+}
+
+.introTitle {
+  text-align: center;
+  padding-top: 20px;
+  color: gold;
+}
+
+.introInfo {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  flex-direction: column;
+  text-align: center;
+}
+
+.introInfo p {
+  color: rgb(9, 255, 0);
+}
+
+.introInfo figcaption {
+  color: rgb(154, 154, 19);
+}
+
+.stationsLifeTitle {
+  text-align: center;
+  color: rgb(0, 229, 255);
+}
+
+.stationsLife {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  background-color: rgb(97, 127, 93);
+}
+
+.worldMap {
+  border-radius: 45%;
+}
+
+.pinIcon {
+  position: absolute;
+  top: 200px;
+}
+
+.skillsetTitle {
+  text-align: center;
+  color: rgb(220, 58, 58);
+  font-size: 30px;
+}
+
+.skillset {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: flex-start;
+  background-color: rgb(24, 57, 57);
+}
+
+.skillLanguage {
+  color: rgb(226, 110, 43);
+}
+
+.skillHobbies {
+  color: rgb(40, 24, 85);
+}
+
+.skillset ul li::before {
+  content: "\2022"; /* Unicode character for bullet (•) */
+  color: rgb(126, 178, 231);
+  display: inline-flex;
+  width: 2em;
+}
+
+.favouriteLinksTitle {
+  text-align: center;
+  color: rgb(212, 105, 224);
+  font-size: 20px;
+}
+
+.favouriteLinks {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: flex-start;
+  background-color: rgb(84, 70, 98);
+  text-align: center;
+}
+
+a:hover {
+  color: rgb(194, 35, 115);
+}
+
+footer {
+  background-color: rgb(81, 47, 47);
+}
+
+.footerContent {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  position: relative;
+}
+
+#topButton {
+  /*needs to be coded with JS*/
+  position: fixed;
+  bottom: 50px;
+  right: 50px;
+  background-color: rgb(136, 255, 0);
+  border-radius: 50%;
+}
