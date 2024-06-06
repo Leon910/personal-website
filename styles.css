@@ -21,6 +21,9 @@ h1 {
 }
 
 .navigation {
+  border-color: black;
+  border-style: groove;
+  border-width: 2px;
   background-color: silver;
   padding: 4px;
 }
@@ -30,14 +33,25 @@ h1 {
   justify-content: space-evenly;
 }
 
+.navigation .navigationList a {
+  color: gold;
+  text-decoration: double;
+}
+
+.navigation .navigationList a:hover {
+  color: rgb(194, 35, 115);
+}
+
 #introMe {
   background-color: rgb(163, 192, 157);
 }
 
 .introTitle {
   text-align: center;
-  padding-top: 20px;
-  color: gold;
+  border-color: black;
+  border-style: dashed;
+  border-width: 2px;
+  color: goldenrod;
 }
 
 .introInfo {
@@ -49,16 +63,23 @@ h1 {
 }
 
 .introInfo p {
-  color: rgb(9, 255, 0);
+  color: darkolivegreen;
 }
 
 .introInfo figcaption {
-  color: rgb(154, 154, 19);
+  color: darkmagenta;
+}
+
+#stationsMe {
+  background-color: rgb(97, 127, 93);
 }
 
 .stationsLifeTitle {
   text-align: center;
-  color: rgb(0, 229, 255);
+  border-color: black;
+  border-style: dashed;
+  border-width: 2px;
+  color: goldenrod;
 }
 
 .stationsLife {
@@ -67,7 +88,6 @@ h1 {
   flex-direction: column;
   align-items: center;
   position: relative;
-  background-color: rgb(97, 127, 93);
 }
 
 .worldMap {
@@ -79,10 +99,16 @@ h1 {
   top: 200px;
 }
 
+#skillMe {
+  background-color: rgb(24, 57, 57);
+}
+
 .skillsetTitle {
   text-align: center;
-  color: rgb(220, 58, 58);
-  font-size: 30px;
+  color: goldenrod;
+  border-color: black;
+  border-style: dashed;
+  border-width: 2px;
 }
 
 .skillset {
@@ -90,8 +116,7 @@ h1 {
   flex-wrap: wrap;
   flex-direction: column;
   justify-content: space-evenly;
-  align-items: flex-start;
-  background-color: rgb(24, 57, 57);
+  align-content: center;
 }
 
 .skillLanguage {
@@ -109,20 +134,28 @@ h1 {
   width: 2em;
 }
 
-.favouriteLinksTitle {
-  text-align: center;
-  color: rgb(212, 105, 224);
-  font-size: 20px;
+#linksMe {
+  background-color: rgb(84, 70, 98);
 }
 
-.favouriteLinks {
+.favouriteLinksTitle {
+  text-align: center;
+  color: goldenrod;
+  border-color: black;
+  border-style: dashed;
+  border-width: 2px;
+}
+
+.favouriteLinksSet {
   display: flex;
   flex-wrap: wrap;
   flex-direction: column;
   justify-content: space-evenly;
-  align-items: flex-start;
-  background-color: rgb(84, 70, 98);
-  text-align: center;
+  align-content: center;
+}
+
+.favouriteLinks {
+  color: rgb(226, 110, 43);
 }
 
 a:hover {
